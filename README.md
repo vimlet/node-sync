@@ -1,6 +1,9 @@
 # Fork
 Fork from original project with updated fibers dependencies to support newer Node releases.
 
+## Fibers
+If you are running 64-bit nodejs version 12.x or 14.x on Linux, OS X, or Windows (7 or later) then you should be able to install fibers from npm just fine. If you are running nodejs v10.x then you will need to use npm install fibers@4. Older versions of nodejs will require older and older version of fibers.
+
 # Introduction
 node-sync is a simple library that allows you to call any asynchronous function in synchronous way. The main benefit is that it uses javascript-native design - Function.prototype.sync function, instead of heavy APIs which you'll need to learn. Also, asynchronous function which was called synchronously through node-sync doesn't blocks the whole process - it blocks only current thread!
 
