@@ -1,7 +1,7 @@
 # Fork
 Fork from original project with updated fibers dependencies to support newer Node releases.
 
-**Fibers**
+**Fibers:**
 
 If you are running 64-bit nodejs version 12.x or 14.x on Linux, OS X, or Windows (7 or later) then you should be able to install fibers from npm just fine. If you are running nodejs v10.x then you will need to use npm install fibers@4. Older versions of nodejs will require older and older version of fibers.
 
