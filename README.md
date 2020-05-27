@@ -1,4 +1,7 @@
 # Introduction
+Fork from original project with updated fibers dependencies to support newer Node releases.
+
+# Introduction
 node-sync is a simple library that allows you to call any asynchronous function in synchronous way. The main benefit is that it uses javascript-native design - Function.prototype.sync function, instead of heavy APIs which you'll need to learn. Also, asynchronous function which was called synchronously through node-sync doesn't blocks the whole process - it blocks only current thread!
 
 It built on [node-fibers](https://github.com/laverdet/node-fibers) library as a multithreading solution.
